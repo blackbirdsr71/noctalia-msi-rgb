@@ -1,0 +1,29 @@
+{
+  "id": "msi-rgb",
+  "name": "MSI Keyboard RGB",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "4.6.6",
+  "author": "blackbirdsr71",
+  "license": "MIT",
+  "repository": "https://github.com/blackbirdsr71/noctalia-msi-rgb",
+  "description": "Control del teclado RGB SteelSeries per-key de laptops MSI via msi-perkeyrgb. Color fijo, efectos y apagado desde la barra.",
+  "tags": [
+    "Hardware",
+    "Bar",
+    "Utility"
+  ],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "settings": "Settings.qml"
+  },
+  "metadata": {
+    "defaultSettings": {
+      "model": "GS65",
+      "color": "#ff00ff",
+      "mode": "steady",
+      "effect": "rainbow-split",
+      "colorIcon": true
+    }
+  }
+}

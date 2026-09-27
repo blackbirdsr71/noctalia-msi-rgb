@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "msi-rgb",
+      "name": "MSI Keyboard RGB",
+      "version": "1.0.0",
+      "official": false,
+      "author": "blackbirdsr71",
+      "description": "Control del teclado RGB SteelSeries per-key de laptops MSI via msi-perkeyrgb. Color fijo, efectos y apagado desde la barra.",
+      "repository": "https://github.com/blackbirdsr71/noctalia-msi-rgb",
+      "minNoctaliaVersion": "4.6.6",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Hardware",
+        "Utility"
+      ],
+      "lastUpdated": "2026-09-27T11:00:00-03:00"
+    }
+  ]
+}
