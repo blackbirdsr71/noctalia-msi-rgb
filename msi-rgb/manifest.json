@@ -1,7 +1,7 @@
 {
   "id": "msi-rgb",
   "name": "MSI Keyboard RGB",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minNoctaliaVersion": "4.6.6",
   "author": "blackbirdsr71",
   "license": "MIT",

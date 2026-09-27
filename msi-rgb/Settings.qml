@@ -67,8 +67,6 @@ ColumnLayout {
                 required property string modelData
                 Layout.fillWidth: true
                 text: modelData
-                // Resalta el efecto activo
-                highlighted: root.valueMode === "effect" && root.valueEffect === modelData
                 onClicked: {
                     root.valueEffect = modelData
                     root.valueMode = "effect"
@@ -85,7 +83,6 @@ ColumnLayout {
     NButton {
         Layout.fillWidth: true
         text: "Apagar teclado"
-        icon: "power"
         onClicked: {
             root.valueColor = "#000000"
             root.valueMode = "steady"
